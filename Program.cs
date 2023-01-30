@@ -38,7 +38,7 @@ class Result
         }
         else if (year >= 1919)
         {
-            if (year % 4 == 0)
+            if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
             {
                 day = 256 - 244;
             }
