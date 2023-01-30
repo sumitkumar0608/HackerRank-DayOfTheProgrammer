@@ -40,6 +40,7 @@ class Result
         {
             if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
             {
+                //leap year
                 day = 256 - 244;
             }
             else
